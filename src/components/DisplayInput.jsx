@@ -12,16 +12,19 @@ export default function DisplayInput() {
     setBtnValue(btnValue + e.target.value);
   }
 
+  //handle delete number.
   function delNumber(e) {
     e.preventDefault();
     setBtnValue(btnValue.slice(0, -1));
   }
 
+  //handle remove all.
   function removeAll(e) {
     e.preventDefault();
     setBtnValue("");
   }
 
+  //handle calculation evaluation.
   function evaluateCalculations(e) {
     e.preventDefault();
     setBtnValue(eval(btnValue));
