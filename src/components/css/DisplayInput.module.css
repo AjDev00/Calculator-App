@@ -1,0 +1,48 @@
+.formContainer {
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.inputT {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  font-size: 22.4px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.buttonContainer {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.operator {
+  border: none;
+  color: orange;
+  background-color: black;
+  cursor: pointer;
+  padding: 30px 35px;
+  width: 80px;
+}
+
+.eachButton {
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  padding: 30px 35px;
+  width: 80px;
+}
+
+.calcButton {
+  border: none;
+  color: orange;
+  background-color: black;
+  cursor: pointer;
+  padding: 30px 35px;
+  width: 160px;
+}
